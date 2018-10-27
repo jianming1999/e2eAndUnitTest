@@ -1,0 +1,20 @@
+{
+  "name": "nightwatchDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "./node_modules/.bin/nightwatch --config=test/e2e/nightwatch.conf.js --env",
+    "test:unit": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
+    "test": "npm run test:e2e && npm run test:unit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.43.0",
+    "jasmine": "^3.3.0",
+    "nightwatch": "^0.9.21",
+    "selenium-server": "^3.14.0"
+  }
+}
