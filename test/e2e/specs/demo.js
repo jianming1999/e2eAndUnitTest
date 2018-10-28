@@ -3,7 +3,7 @@ module.exports = {
     // 定义 Bing 页面中的节点.
     const searchInput = '#kw';
     const searchBtn = '#su';
-    const question = '测试nightwatch自动打开网站搜索';
+    const question = '测试nightwatch自动打开网站搜索-test';
 
     // 启动浏览器并打开 https://www.baidu.com
     client.url('https://www.baidu.com/').maximizeWindow();
